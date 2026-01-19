@@ -1,3 +1,9 @@
+#EXTM3U x-tvg-url="https://epg.it999.ru/epg.xml.gz"
+# Плейлист для Оренбургской области (UTC+5)
+# Создано: 15.03.2024
+
+# ===== ФЕДЕРАЛЬНЫЕ КАНАЛЫ =====
+
 #EXTINF:-1 tvg-id="Первый" tvg-logo="http://epg.it999.ru/img2/983.png" tvg-shift=5 group-title="Федеральные",Первый HD
 https://cdn10.1internet.tv/dash-live12/streams/1tv/1tvdash.mpd
 
