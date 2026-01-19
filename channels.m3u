@@ -1,63 +1,21 @@
-#EXTM3U x-tvg-url="https://epg.it999.ru/epg.xml.gz"
-# Плейлист для Оренбургской области (UTC+5)
-# Создано: 15.03.2024
-
-# ===== ФЕДЕРАЛЬНЫЕ КАНАЛЫ =====
-
-#EXTINF:-1 tvg-id="Первый" tvg-logo="http://epg.it999.ru/img2/983.png" tvg-shift=5 group-title="Федеральные",Первый HD
-https://cdn10.1internet.tv/dash-live12/streams/1tv/1tvdash.mpd
-
-#EXTINF:-1 tvg-id="Россия1" tvg-logo="http://epg.it999.ru/img2/984.png" tvg-shift=5 group-title="Федеральные",Россия 1 HD
-http://cdnmg.secure.live.rtr-vesti.ru/hls2/russia_hd/playlist_6.m3u8
-
-#EXTINF:-1 tvg-id="НТВ" tvg-logo="http://epg.it999.ru/img2/2001.png" tvg-shift=5 group-title="Федеральные",НТВ HD
-https://ntv-hls-orig.cdnvideo.ru/ntv0_hd/tracks-v1a1/mono.m3u8
-
-#EXTINF:-1 tvg-id="ТВЦентр" tvg-logo="http://epg.it999.ru/img2/649.png" tvg-shift=5 group-title="Федеральные",ТВ Центр HD
-http://hls.peers.tv/streaming/tvc_hd/126/copy/playlist.m3u8?token=d680c0c502834299a358e0c1783e9f94&client=97
-
-#EXTINF:-1 tvg-id="РЕН" tvg-logo="http://epg.it999.ru/img2/18.png" tvg-shift=5 group-title="Федеральные",РЕН ТВ
-http://flu.ttk.mx:9090/REN_TV/index.m3u8?token=orh6o
-
-#EXTINF:-1 tvg-id="СТС" tvg-logo="http://epg.it999.ru/img2/79.png" tvg-shift=5 group-title="Федеральные",СТС
-http://flu.ttk.mx:9090/STS/index.m3u8?token=orh6o
-
-#EXTINF:-1 tvg-id="Домашний" tvg-logo="http://epg.it999.ru/img2/304.png" tvg-shift=5 group-title="Федеральные",Домашний
-http://flu.ttk.mx:9090/Domashni/index.m3u8?token=orh6o
-
-#EXTINF:-1 tvg-id="Мир" tvg-logo="http://epg.it999.ru/img2/726.png" tvg-shift=5 group-title="Федеральные",Мир HD
-https://hls-mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/tracks-v1a1/mono.m3u8
-
-#EXTINF:-1 tvg-id="Звезда" tvg-logo="http://epg.it999.ru/img2/405.png" tvg-shift=5 group-title="Федеральные",Звезда HD
-https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
-
-#EXTINF:-1 tvg-id="Россия24" tvg-logo="http://epg.it999.ru/img2/1683.png" tvg-shift=5 group-title="Федеральные",Россия 24
-http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_24/playlist_3.m3u8
-
-# ===== РЕГИОНАЛЬНЫЕ (Оренбургская область) =====
-
-#EXTINF:-1 tvg-id="OTV" tvg-logo="https://upload.wikimedia.org/wikipedia/ru/7/7e/OTV_logo_2019.png" tvg-shift=5 group-title="Оренбургские",ОРТВ (Оренбург)
-https://live-orenburg.gcdn.co/otv/playlist.m3u8
-
-#EXTINF:-1 tvg-id="Region" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/OTV_logo_2019.png/200px-OTV_logo_2019.png" tvg-shift=5 group-title="Оренбургские",Оренбург 24 (альтернатива)
-http://stream.orenburg-tv.ru:8080/otv/index.m3u8
-
-#EXTINF:-1 tvg-id="Ural56" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/UTV_logo.png/200px-UTV_logo.png" tvg-shift=5 group-title="Оренбургские",Урал 56
-https://hls.ural56.ru/utv/index.m3u8
-
-# ===== ОБЩЕРОССИЙСКИЕ ДОПОЛНИТЕЛЬНЫЕ =====
-
-#EXTINF:-1 tvg-id="ТНТ" tvg-logo="http://epg.it999.ru/img2/301.png" tvg-shift=5 group-title="Развлечения",ТНТ
-https://cdn10.1internet.tv/dash-live12/streams/tnt/tntdash.mpd
-
-#EXTINF:-1 tvg-id="Пятница" tvg-logo="http://epg.it999.ru/img2/2015.png" tvg-shift=5 group-title="Развлечения",Пятница
-https://cdn10.1internet.tv/dash-live12/streams/friday/fridaydash.mpd
-
-#EXTINF:-1 tvg-id="МатчТВ" tvg-logo="http://epg.it999.ru/img2/2019.png" tvg-shift=5 group-title="Спорт",Матч ТВ
-https://cdn10.1internet.tv/dash-live12/streams/match/matchdash.mpd
-
-#EXTINF:-1 tvg-id="Еврокино" tvg-logo="http://epg.it999.ru/img2/352.png" tvg-shift=5 group-title="Кино",Еврокино
-http://flu.ttk.mx:9090/Evrokino/index.m3u8?token=orh6o
-
-#EXTINF:-1 tvg-id="МузТВ" tvg-logo="http://epg.it999.ru/img2/897.png" tvg-shift=5 group-title="Музыка",Муз ТВ
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8
+#EXTM3U
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/983.png",Первый канал (+2 Урал)
+https://mhd.itv.re/cdn/1tv_2/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/984.png",Россия 1 (+2 Урал)
+https://mhd.itv.re/cdn/russia1_2/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2001.png",НТВ (+2 Урал)
+https://mhd.itv.re/cdn/ntv_2/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://media-ort.ru/templates/ort/images/logo.png",ОРТ (Оренбургское рег. ТВ)
+https://ort-tv.hostingradio.ru:8032/ort-tv/ort-tv.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/79.png",СТС (+2 Урал)
+https://mhd.itv.re/cdn/sts_2/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/18.png",РЕН ТВ (+2 Урал)
+https://mhd.itv.re/cdn/rentv_2/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/304.png",Домашний (+2 Урал)
+https://mhd.itv.re/cdn/domashniy_2/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1110.png",ТНТ (+2 Урал)
+https://mhd.itv.re/cdn/tnt_2/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/675.png",Моя планета
+https://mhd.itv.re/cdn/moyaplaneta/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1683.png",Россия 24
+https://mhd.itv.re/cdn/russia24/playlist.m3u8
