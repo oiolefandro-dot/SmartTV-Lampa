@@ -1,6 +1,3 @@
-// Плагин для Lampa: Smart TV - Полная версия
-// Все каналы из предоставленного M3U плейлиста
-
 let plugin = {
     name: 'Smart TV Полный',
     description: 'Все каналы из Smart TV плейлиста',
