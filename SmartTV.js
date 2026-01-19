@@ -5,8 +5,7 @@ let plugin = {
     author: 'Smart TV Collection',
     icon: 'https://cdn-icons-png.flaticon.com/512/2875/2875387.png',
     background: 'https://images.unsplash.com/photo-1593359677879-a4bb92f829d1',
-    cloud_enabled: true,
-    cloud_url: 'https://www.dropbox.com/scl/fi/o36kizpmbm2yganykl3zf/SmartTV.js?rlkey=27euoo48tzug9vqsoi3lsgr9n&st=w6cuvwtv&dl=1',
+    cloud_enabled: false,
     
     groups: [
         {
